@@ -10,10 +10,17 @@
 <body>
     <div class="container">
         <h1>Twitch Drawer</h1>
-        <input type="text" id="draw-symbol" value="█">
-        <input type="text" id="background-symbol" value="░">
+        <div class="panel">
+            <div><label>Brash symbol: </label>
+                <input type="text" id="draw-symbol" class="symb" value="█"><br>
+            </div>
+            <div><label>Background symbol</label>
+                <input type="text" id="background-symbol" class="symb" value="░"><br>
+
+            </div>
+        </div>
         <input type="button" id="copy-to-clipboard" value="Copy to clipboard">
-        <div id="drawer">
+        <div id="drawer" class="panel">
 
         </div>
 
