@@ -1,0 +1,27 @@
+.container {
+    width: 300px;
+}
+
+.symbols {
+    display: inline;
+    -webkit-user-select: none;
+    /* Chrome/Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+ */
+    /* Rules below not implemented in browsers yet */
+    -o-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+body {
+    background-color: rgb(78, 95, 122);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body input {
+    background-color: rgb(229, 229, 229);
+    border: none;
+}
