@@ -1,6 +1,7 @@
 var url = document.location.hostname;
 document.getElementById("background-symbol").addEventListener("change", createBackground);
 document.getElementById("copy-to-clipboard").addEventListener("click", copyResultToClipBoard);
+document.getElementById("line-count").addEventListener("change", createBackground);
 
 //if (url == "twitch.tv") {
 console.log("on twitch page");
@@ -28,7 +29,8 @@ function createBackground() {
     console.log("creatingBackground");
     var x = 0;
     var result = "";
-    while (x < 35) {
+    var lines = document.getElementById("line-count").value;
+    while (x < lines) {
 
         var y = 0;
         while (y < 35) {
