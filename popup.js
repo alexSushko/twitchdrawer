@@ -2,6 +2,7 @@ var url = document.location.hostname;
 document.getElementById("background-symbol").addEventListener("change", createBackground);
 document.getElementById("copy-to-clipboard").addEventListener("click", copyResultToClipBoard);
 document.getElementById("line-count").addEventListener("change", createBackground);
+document.getElementById("refresh").addEventListener("click", createBackground);
 
 //if (url == "twitch.tv") {
 console.log("on twitch page");
