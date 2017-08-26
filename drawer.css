@@ -1,0 +1,90 @@
+#twitchdrawer-view {
+    position: absolute;
+    bottom: 100px;
+}
+
+.twitchdrawer-box {
+    background: white;
+    color: #322f37;
+    box-shadow: inset 0 0 0 1px #dad8de;
+    position: relative;
+    width: 30rem;
+    background-clip: padding-box;
+    overflow: hidden;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.twitchdrawer-box-icon {
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+}
+
+.twitchdrawer-box .tool {
+    display: inline-block;
+}
+
+.twitchdrawer-box #drawer .symbols {
+    display: inline;
+    cursor: pointer;
+    margin: 0px;
+}
+
+.twitchdrawer-box #drawer {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.twitchdrawer-box input[type=text],
+input[type=number] {
+    padding: 6px 9px;
+    margin: 0px 0px 1px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.twitchdrawer-box input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.twitchdrawer-box label {
+    font-size: 20px;
+}
+
+.twitchdrawer-box .symb {
+    width: 60px;
+}
+
+.twitchdrawer-box .panel {
+    padding: 10px;
+}
+
+.twitchdrawer-box .accept {
+    border: none;
+    background-color: #45a049;
+    padding: 5px;
+    color: #f2f2f2;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+#icon-drawer-artist {
+    position: absolute;
+    top: 25px;
+    right: 5px;
+    width: 16px;
+    height: 16px;
+    opacity: 0.3;
+}
+
+#icon-drawer-artist:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

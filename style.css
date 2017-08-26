@@ -67,3 +67,17 @@ div {
     margin: 5px;
     margin-left: 10px;
 }
+
+#icon-drawer-artist {
+    position: absolute;
+    top: 25px;
+    right: 5px;
+    width: 16px;
+    height: 16px;
+    opacity: 0.3;
+}
+
+#icon-drawer-artist:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

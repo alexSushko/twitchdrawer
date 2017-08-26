@@ -98,8 +98,6 @@ var changeSymbol = function(event) {
     reloadData();
 }
 var reloadData = function() {
-    var chat = document.getElementsByClassName("js-chat-input chat-input balloon-wrapper ember-view");
-    console.log(chat);
-
+    copyResultToChat();
 }
 createBackground();
